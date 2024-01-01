@@ -7,8 +7,8 @@ function App() {
 
 
   return (
-    //basename='/sS0NLPolMnbAX7D3/'
-    <Router >
+    
+    <Router basename='/sS0NLPolMnbAX7D3/'>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/bmi' element={<BMICalculator/>} ></Route>
